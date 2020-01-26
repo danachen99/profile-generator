@@ -1,0 +1,23 @@
+{
+  "name": "profile-generator",
+  "version": "1.0.0",
+  "description": "Profile generator using command line to get GitHub user info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danachen99/profile-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danachen99/profile-generator/issues"
+  },
+  "homepage": "https://github.com/danachen99/profile-generator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.0.4"
+  }
+}
