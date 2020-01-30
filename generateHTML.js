@@ -25,6 +25,13 @@ const colors = {
     }
 };
 
+// module.exports = {
+//     green: green,
+//     blue: blue,
+//     pink: pink,
+//     red: red
+// }
+
 function generateHTML(data) {
     return `<!DOCTYPE html>
   <html lang="en">
@@ -172,3 +179,4 @@ function generateHTML(data) {
            }
         </style>`
 }
+generateHTML();
